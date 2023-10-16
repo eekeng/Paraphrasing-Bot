@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div{
+  display:flex;
+  flex-direction: column;
+}
+
+body { min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#form {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+  /* input {
+    caret-color: auto;
+
+  } */
+
+#submitButton {
+ outline: auto;
+ margin: 8px 0;
+
+
+}
+/* #userForm {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+  justify-content: center;
+} */
+
+#textBox {
+ outline: auto;
+ width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  padding-top: 0;
+   padding-left: 0;
+}
