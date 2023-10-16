@@ -2,7 +2,7 @@ import { data } from 'autoprefixer';
 import React, {useEffect, useState} from 'react'
 // import './globals.css' 
 
-function index() {
+function Index() {
 const [apiMessage, setApi] = useState("Hi! Welcome to the paraphrasing bot powered by GPT-3.5. Please enter a paragraph to be paraphrased")
 const [text, setText] = useState("")
 
@@ -62,4 +62,4 @@ const [text, setText] = useState("")
   );
 }
 
-export default index
+export default Index
